@@ -224,10 +224,10 @@ img {
 .nav__link:hover {
   color: var(--first-color);
 }
-.nav_icon {
+.nav__icon {
   font-size: 1.2rem;
 }
-.nav__close{
+.nav-close{
   position: absolute;
   right: 1.3rem;
   bottom: .5rem;
