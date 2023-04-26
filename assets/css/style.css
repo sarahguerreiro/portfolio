@@ -476,7 +476,6 @@ img {
   background-color: var(--first-color);
 }
 
-
 .skills__html{
   width: 75%;
 }
@@ -489,7 +488,6 @@ img {
 .skills__react{
   width: 5%;
 }
-
 
 .skills__php{
   width: 0%;
@@ -504,7 +502,6 @@ img {
   width: 5%;
 }
 
-
 .skills__figma{
   width: 20%;
 }
@@ -514,7 +511,6 @@ img {
 .skills__gimp{
   width: 50%;
 }
-
 
 .skills__close .skills__list{
   height: 0;
@@ -538,7 +534,7 @@ img {
 .qualification__buttom{
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 
 .qualification__buttom:hover{
@@ -585,7 +581,7 @@ img {
   background-color: var(--first-color);
   transform: translate(6px, -7px);
 }
-
+/*primeiro escondemos o conteudo das tabs: */
 .qualification [data-content]{
   display: none;
 }
@@ -631,7 +627,7 @@ img {
   cursor: pointer;
   font-size: var(--small-font-size);
 }
-
+/*fazendo o icone reagir a passagem do mouse por cima do botao*/
 .services__button:hover .button__icon{
   transform: translateX(.25rem);
 }
@@ -719,7 +715,7 @@ img {
 .portfolio__description{
   margin-bottom: var(--mb-0-75);
 }
-
+/*deixando o icone animado: */
 .portfolio__button:hover .button__icon{
   transform: translateX(0.25rem);
 }
@@ -736,6 +732,7 @@ img {
 
 .swiper-button-prev{
   left: -.5rem;
+
 }
 
 .swiper-button-next{
