@@ -881,7 +881,7 @@ img {
 
 .footer__bg{
   background-color: var(--first-color-second);
-  padding: 2rem 0 3 rem;
+  padding: 2rem 0 3rem;
 }
 
 .footer__title{
@@ -917,6 +917,13 @@ img {
   text-align: center;
   color: var(--text-color-light);
   margin-top: var(--mb-3);
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social{
+  color: #fff;
 }
 /*========== SCROLL UP ==========*/
 
