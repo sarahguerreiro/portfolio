@@ -303,7 +303,7 @@ img {
 
 .home__blob{
   width: 200px;
-  fill: var(--first-color);
+  fill: var(--first-color); /*preenche um fundo png*/
 }
 
 .home__blob-img{
@@ -339,7 +339,7 @@ img {
 }
 
 .home__scroll-button:hover{
-  transform: translateY(0.25rem);
+  transform: translateY(.25rem);
 }
 
 .home__scroll-mouse{
